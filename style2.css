@@ -1,0 +1,23 @@
+
+Body  {
+	/*for the h1 bangle*/
+  background-color:#FFE4E1;
+  font-family: "Lucida sans unicode",  "Lucida Grande", sans-serif;
+  Color: #8c5f26;
+  font-size: 26px;
+}
+
+.column {
+  float: left;
+  width:30%;
+  padding: 5px;
+  padding-top:50px;
+  padding-left:100px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
